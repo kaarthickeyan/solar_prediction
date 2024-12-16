@@ -6,7 +6,7 @@ from datetime import datetime
 import time
 
 # Load the trained model
-model = joblib.load(r"C:\Users\gandhi72\Documents\Solar_ai_code\DutyCycle_Prediction_model.pkl")  # Ensure your model is named correctly
+model = joblib.load("DutyCycle_Prediction_model.pkl")  # Ensure your model is named correctly
 
 # App title
 st.title("Real-Time Duty Cycle Prediction")
